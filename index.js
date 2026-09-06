@@ -40,3 +40,6 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
+app.get('/chutiya', (req, res) => {
+    res.send("Chutiya is a bad word in hindi")
+})
