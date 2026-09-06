@@ -41,5 +41,5 @@ app.listen(port, () => {
 })
 
 app.get('/chutiya', (req, res) => {
-    res.send("Chutiya is a bad word in hindi")
+    res.send("Manas is chutiya")
 })
